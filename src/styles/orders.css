@@ -1,0 +1,39 @@
+.orders {
+  padding: 40px;
+}
+
+.orders input {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.orders button {
+  padding: 10px 18px;
+  background: linear-gradient(135deg,#ff6a2b,#ff9f1c);
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.order {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 16px;
+  background: white;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+}
+
+.order.Ordered {
+  border-left: 6px solid #f39c12;
+}
+
+.order.Dispatched {
+  border-left: 6px solid #3498db;
+}
+
+.order.Delivered {
+  border-left: 6px solid #2ecc71;
+}

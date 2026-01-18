@@ -1,0 +1,16 @@
+.home {
+  padding: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.home h1 {
+  text-align: center;
+  color: #1b5e20;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}

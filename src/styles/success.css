@@ -1,0 +1,31 @@
+.success-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fffdf4;
+}
+
+.checkmark {
+  font-size: 90px;
+  color: #2ecc71;
+  animation: pop 0.6s ease;
+}
+
+@keyframes pop {
+  0% { transform: scale(0); }
+  80% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+.success-page button {
+  margin-top: 20px;
+  padding: 12px 22px;
+  border: none;
+  background: linear-gradient(135deg,#ff6a2b,#ff9f1c);
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
