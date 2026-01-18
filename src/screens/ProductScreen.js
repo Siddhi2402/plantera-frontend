@@ -1,6 +1,7 @@
 import React from "react";
 import { useParams, Link } from "react-router-dom";
 import { useCart } from "../context/CartContext";
+import API_BASE_URL from "../services/api";
 
 const products = {
   "1": {
